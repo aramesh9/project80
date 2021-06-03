@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            C-80 Project
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+         <h3 style="margin-top: 20px;margin-bottom: 20px;">Guest List</h3>
+         <div>
+             <span>1.</span>
+             <input type="text" placeholder="Enter Name" id="name_of_the_student_1">
+             <br>
+
+             <span>2.</span>
+             <input type="text" placeholder="Enter Name" id="name_of_the_student_2">
+             <br>
+
+             <span>3.</span>
+             <input type="text" placeholder="Enter Name" id="name_of_the_student_3">
+             <br>
+
+             <span>4.</span>
+             <input type="text" placeholder="Enter Name" id="name_of_the_student_4">
+             <br>
+
+             <span>5.</span>
+             <input type="text" placeholder="Enter Name" id="name_of_the_student_5">
+             <br>
+         </div>
+         <button onclick="submit()" id="submit_btn">Submit</button>
+
+         <div id="display_nme_commas"></div>
+         <div id="dispaly_nme_wht_commas"></div>
+
+         <div id="display_nme" style="font-weight: bold;"></div>  
+         <button onclick="sorting()" id="sort_btn">Sort</button>
+         <br>
+         <br>
+         <input type="text" id="search_input" placeholder="Search">
+         <button id="search_btn" onclick="search()">Search</button>
+         <br>
+         <label id="searched"></label>
+        </center>
+    </body>
+</html>
